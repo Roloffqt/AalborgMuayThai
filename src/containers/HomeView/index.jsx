@@ -29,6 +29,7 @@ class HomeViewIndex extends Component {
       <div className={classes.img}>
         <img className={classes.img_size} src={testimg1} />
       </div>
+      <h1>hej</h1>
       </div>
     );
   }
