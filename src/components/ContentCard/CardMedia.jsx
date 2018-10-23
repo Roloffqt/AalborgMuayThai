@@ -15,7 +15,7 @@ class CardMedia extends Component {
         <div key={Cards.id} style={{ backgroundImage: `url('${Cards.image}')`}} className={classes.teaserbar}>
         <div style={{backgroundColor: Cards.overlay}} className={classes.overlay}>
         <div className={classes.textContainer}>
-        <p className={classes.teaserText}>{Cards.Trainer}</p>
+        {Cards.Trainer && <p className={classes.teaserText}>{Cards.Trainer}</p>}
         <h2 className={classes.teaserTextHeading}>{Cards.Title}</h2>
           
        

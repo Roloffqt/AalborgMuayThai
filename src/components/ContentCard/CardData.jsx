@@ -9,7 +9,7 @@ const data = {
       "Cards": [
           {
             "id": 0,
-            "Trainer":"Sentra", 
+            "Trainer":"Anne Eschen", 
             "Time":1540291678,
             "Title": "Børn",
             "overlay": "rgba(33,150,243,0.7)",
@@ -20,7 +20,7 @@ const data = {
             },
         {
             "id": 1,
-            "Trainer":"Anne", 
+            "Trainer":"Mads Roloff", 
             "Time":1540291678,
             "Title": "Begynder ",
             "overlay": "rgba(208,64,129,0.7)",
@@ -32,7 +32,7 @@ const data = {
      
         {
             "id": 2,
-            "Trainer":"Anne", 
+            "Trainer":"Jones Anissi", 
             "Time":1540291678,
             "Title": "Advanceret ",
             "overlay": "rgba(0,150,136, 0.7)",
@@ -44,7 +44,7 @@ const data = {
     
         {
             "id": 3,
-            "Trainer":"Anne", 
+            "Trainer":"Jones Anissi", 
             "Time":1540291678,
             "Title": "Fri-Sparring",
             "overlay": "rgba(244,67,54,0.7)",
@@ -57,7 +57,6 @@ const data = {
    
         {
             "id": 4,
-            "Trainer":"Anne", 
             "Time":1540291678,
             "Title": "Information",
             "overlay": "rgba(44,56,126,0.7)",
