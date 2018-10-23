@@ -1,0 +1,53 @@
+{
+      "Cards": [
+          {
+            "id": 0,
+            "Trainer":"Sentra", 
+            "Time":1540291678,
+            "Title": "Børn",
+            "overlay": "rgba(33,150,243,0.7)",
+            "image": "testimg1",
+            "btnText": "see more..."
+          },
+      
+        {
+            "id": 1,
+            "Trainer":"Anne", 
+            "Time":1540291678,
+            "Title": "Begynder ",
+            "overlay": "rgba(208,64,129,0.7)",
+            "image": "testimg1",
+            "btnText": "see more..."
+          },
+     
+        {
+            "id": 2,
+            "Trainer":"Anne", 
+            "Time":1540291678,
+            "Title": "Advanceret ",
+            "overlay": "rgba(0,150,136, 0.7)",
+            "image": "testimg1",
+            "btnText": "see more..."
+          },
+    
+        {
+            "id": 3,
+            "Trainer":"Anne", 
+            "Time":1540291678,
+            "Title": "Fri-Sparring",
+            "overlay": "rgba(244,67,54,0.7)",
+            "image": "testimg1",
+            "btnText": "see more..."
+          },
+   
+        {
+            "id": 4,
+            "Trainer":"Anne", 
+            "Time":1540291678,
+            "Title": "Information",
+            "overlay": "rgba(44,56,126,0.7)",
+            "image": "testimg1",
+            "btnText": "see more..."
+          }
+      ]
+  }

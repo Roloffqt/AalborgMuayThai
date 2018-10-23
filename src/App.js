@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./App.css";
 import Navbarcontainer from "./containers/navBar/index";
+import HomeViewIndex from "./containers/HomeView/index";
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbarcontainer />
+        <HomeViewIndex />
       </div>
     );
   }
