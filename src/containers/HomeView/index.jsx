@@ -11,7 +11,7 @@ class HomeViewIndex extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div>
+      <div className={classes.root}>
         <CardMedia></CardMedia>
       </div>
     );
@@ -24,7 +24,6 @@ HomeViewIndex.propTypes = {
 
 const styles = () => ({
   root: {
-   
   },
 });
 

@@ -2,6 +2,7 @@ import React,  { Component } from 'react'
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Button from '@material-ui/core/Button';
+import Icon from '@material-ui/core/Icon';
 import testimg1 from '../../containers/HomeView/testimg1.jpg';
 import CardData from './CardData.json';
 
@@ -22,7 +23,7 @@ class CardMedia extends Component {
             <p className={classes.teaserText}>16:00 - 18:00</p>
           </div>
         </div>
-        <Button variant="extendedFab" aria-label="Delete" className={classes.button}>
+        <Button variant="contained" color="primary" className={classes.button}>
         {Cards.btnText}
         </Button>
         </div>
@@ -31,30 +32,24 @@ class CardMedia extends Component {
       })
 
       return (
-        <div>
-           <div className={classes.root}>
-         { mapdata }
-      </div>
-  )
-        </div>
+          <div className={classes.root}>
+            { mapdata }
+          </div>
       )
     }
   }
   
 const styles = theme => ({
-  extendedIcon: {
-    marginRight: theme.spacing.unit,
+  button: {
+    margin: theme.spacing.unit,
   },
   root: {
-    margin: '120px auto 0 auto',
     display :'flex',
     flexDirection: 'row',
-    width: '1440px',
-    maxHeight: '100vh',
-    height: '75vh',
+    height: '100vh',
   },
   textContainer: {
-  paddingTop: '150px',
+  paddingTop: '300px',
   textAlign: 'center',
   color: 'white',
   width: '100%',
@@ -76,7 +71,6 @@ teaserbar: {
   backgroundPosition: 'center center',
   width: '100%',
   height: '100%',
-  margin: '4px',
 },
 overlay: {
   height: '100%',
