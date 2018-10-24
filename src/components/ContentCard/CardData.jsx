@@ -1,5 +1,5 @@
 
-import testimg1 from '../../containers/HomeView/testimg1.jpg';
+import winner from '../../images/winner.jpg';
 import flyingknee from '../../images/action-activity-adult-260447.jpg';
 import corner from '../../images/action-adult-athlete-598665.jpg';
 import woman from '../../images/boxing-female-fitness-161017.jpg';
@@ -13,7 +13,7 @@ const data = {
             "Time":1540291678,
             "Title": "Børn",
             "overlay": "rgba(33,150,243,0.7)",
-            "image": `${testimg1}`,
+            "image": `${winner}`,
             "btnText": "see more...",
             "mon":"Mandag 18-19",
             "weds": "Onsdag 18-19"
@@ -58,6 +58,8 @@ const data = {
         {
             "id": 4,
             "Time":1540291678,
+            "street": "Lange Müllers vej 18",
+            "city": "9200 Aalborg, Denmark",
             "Title": "Information",
             "overlay": "rgba(44,56,126,0.7)",
             "image": `${beach}`,
