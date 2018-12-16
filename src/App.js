@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
         <Navbarcontainer />
         <HomeViewIndex />
+        hey
       </div>
     );
   }
